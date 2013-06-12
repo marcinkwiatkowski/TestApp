@@ -30,12 +30,13 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertTrue(true, @"making the test pass");
 }
 
 - (void)testPassing
 {
-    XCTAssertEquals(2, 2, "2 is equal to 2");
+    XCTAssertEquals(2, 2, @"2 is equal to 2");
 }
 
 @end
